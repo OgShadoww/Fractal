@@ -33,4 +33,4 @@ def recurstion(n, l):
 
 
 
-recurstion(6, 50) 
+recurstion(7, 50) 
