@@ -6,6 +6,7 @@ height = turtle.window_height()
 width = turtle.window_width()
 margin = 200
 
+turtle.tracer(0)
 turtle.speed(0)
 turtle.Screen().bgcolor("black")
 turtle.Screen().setup(width=width, height=height)
@@ -33,4 +34,4 @@ def recurstion(n, l):
     
 
 recurstion(9, 50) 
-turtle.done
+turtle.done()
